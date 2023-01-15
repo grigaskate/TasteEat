@@ -1,0 +1,128 @@
+header {
+  background: #575b62;
+}
+
+.header__top {
+  padding: 50px 40px 50px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 200px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #5c6168;
+}
+
+.logo {
+  height: 188px;
+  border-radius: 0px;
+}
+
+.button {
+  border: 2px solid #e1b168;
+  border-radius: 0px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.2px;
+  background-color: rgba(28, 28, 28, 0);
+  height: 73px;
+}
+
+.button__reservation {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.44px;
+  color: #292e36;
+  height: 73px;
+  background: #e1b168;
+  border: 2px solid #e1b168;
+  border-radius: 0px;
+}
+
+.header__bottom {
+  padding: 30px 40px 30px 40px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+
+.nav {
+  padding: 0px;
+  grid-column: 1/8;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 60px;
+}
+
+.media {
+  grid-column: 11/13;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.h {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 110px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin: 240px 0px 40px 0px;
+}
+
+.main__page {
+  background: #575b62;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.image {
+  background-image: url(../images/Frame.png);
+  background-repeat: no-repeat;
+  height: 770px;
+}
+
+.text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin: 0px 0px 40px 0px;
+}
+
+.button__ViewMenu {
+  padding: 0px 40px 0px 40px;
+  color: #e1b168;
+}
