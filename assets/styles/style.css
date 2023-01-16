@@ -50,24 +50,22 @@ header {
 .header__bottom {
   padding: 30px 40px 30px 40px;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: 70% 20% 10%;
   align-items: center;
 }
 
 .nav {
   padding: 0px;
-  grid-column: 1/8;
+  grid-column: 1/2;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 60px;
 }
 
 .media {
-  grid-column: 11/13;
+  padding: 0px;
+  grid-column: 3/4;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
-  justify-content: space-between;
 }
 
 ul {
@@ -125,4 +123,8 @@ ul {
 .button__ViewMenu {
   padding: 0px 40px 0px 40px;
   color: #e1b168;
+}
+
+body {
+  width: 1440px;
 }
