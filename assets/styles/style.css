@@ -125,6 +125,6 @@ ul {
   color: #e1b168;
 }
 
-body {
-  width: 1440px;
+.root {
+  width: 100vw;
 }
